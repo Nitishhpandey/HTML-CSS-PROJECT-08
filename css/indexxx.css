@@ -1,0 +1,81 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    
+  }
+  
+  .nav-items {
+    display: flex;
+  }
+  
+  .nav-item {
+    margin-left: 20px;
+  }
+  
+  .intro-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .left-section {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .right-section {
+    flex: 1;
+    position: relative;
+  }
+  
+  .headphone-div {
+    position: relative;
+  }
+  
+  .discount {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .discount-content {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .headphone-img {
+    width: 100%;
+    max-width: 300px; /* Adjust the maximum width as needed */
+  }
+  
+  .dots {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 5px;
+  }
+  
+  .yellow-dot {
+    background-color: yellow;
+  }
+  
+  .tomato-dot {
+    background-color: tomato;
+  }
+  
+  .black-dot {
+    background-color: black;
+  }
+  
+  .action-btn {
+    margin-top: 20px; /* Adjust the distance from the dots */
+  }
+  

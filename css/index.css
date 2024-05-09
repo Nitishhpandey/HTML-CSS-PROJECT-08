@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0rem 1rem;
+}
+nav img {
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.nav-items ,h5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0rem 1rem;
+    font-size: 1.5rem;
+}
+.nav-item-active-item{
+    align-items: center;
+    color: rgb(204, 87, 19);
+}
+
+/* left section */
+
+h3{
+    font-size: 2rem;
+    margin-top: 10rem;
+    margin-left: 2rem;
+}
+
+h3 img {
+     height: 2rem;
+     width: 2rem;
+}
+     
+h1{
+    font-size: 4rem;
+    font-weight: 900;
+    margin-left: 2rem;
+}
+.sub-headlines {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 2rem;
+    margin-left: 5rem;
+  }
+  
+  .sub-headline {
+    margin: 0;
+    padding: 5px 4px;
+    margin-left: 2rem;
+  }
+  
+  .sub-headline img {
+    width: 30px;  
+    height: 30px;  
+    margin-right: 5px;  
+    background-color: orangered;
+    border-radius: 2rem;
+  }
+      
+  .text{
+    margin-left: 2rem;
+    margin-top: 6rem;
+  }
+  .action-btn{
+    text-align: center;
+    justify-content: space-between;
+    color: white;
+     background-color: orangered;
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    border-radius: 0.85rem;
+    border-style: none;
+    font-weight: 600;
+    margin-left: 2rem;
+    
+     
+}
+  
+
+
+   
+
+
+
+  .headphone-div {
+    position: relative;
+    margin-top: 50px;
+     
+  }
+  
+  .discount {
+    position: absolute;
+    left: 0;
+    z-index: 1;  
+    margin-left: 2rem;
+    margin-top: 18rem;
+ 
+  }
+  
+  .discount-content {
+    position: absolute;
+     margin-left: 2.5rem;
+     margin-top: 20rem;
+    z-index: 1;  
+    color: white;
+    font-size: 0.85rem;
+  }
+  .discount-content h4{
+    text-align: center;
+  }
+   
+  .headphone-img {
+        bottom: 0;
+        width: 500px;
+        height: 500px;
+        margin-left:7rem;   
+  }
+
+   
+  
+  .dots {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .dot {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    margin: 5px;
+  }
+  
+  .yellow-dot {
+    background-color: yellow;
+  }
+  
+  .tomato-dot {
+    background-color: tomato;
+  }
+  
+  .black-dot {
+    background-color: black;
+  }
+  
+  .action-btn {
+    margin-top: 20px;  
+  }
+  .intro-section {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left-section {
+    flex: 1;
+  }
+  
+  .right-section {
+    flex: 1;
+    position: relative;
+  }
+
+      
